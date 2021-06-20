@@ -33,9 +33,3 @@ jobs:
           vercel-args: '--prod'
           vercel-org-id: Go4ISeNmTSyiBWzonB4RrT07
           vercel-project-id: prj_nT7vEraUKw239i8FbSC4hjoWygBZ
-          deployment-url: hayate.vercel.app # TODO Replace by the domain you want to test
-          timeout: 10 # Wait for 10 seconds before failing
-
-      # Runs a single command using the runners shell
-      - name: Display deployment status
-        run: "echo The deployment at ${{ fromJson(steps.await-vercel.outputs.deploymentDetails).url }} is ${{ fromJson(steps.await-vercel.outputs.deploymentDetails).readyState }}"
