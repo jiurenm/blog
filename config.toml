@@ -1,0 +1,77 @@
+baseURL = "https://hayate.vercel.app/"        # <head>中baseurl信息
+languageCode = "zh-cn"        # 语言
+title = "时空管理局"        # 浏览器标题
+hasCJKLanguage = true        # 开启字数统计
+
+theme = "mogege"        # 主题
+
+paginate = 11        # 每页文章数
+enableEmoji = true        # 支持emoji
+enableRobotsTXT = true        # 支持robots.txt
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+  extensions = ["hardLineBreak"]
+
+[Permalinks]
+  posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/Categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params]
+  since = 2021
+  author = "八神疾风"
+  avatar = "https://z3.ax1x.com/2021/06/20/RiI6Xt.png"
+  subtitle = "机动六课"
+  cdn_url = ""
+  home_mode = "posts"
+  enableGitalk = true
+
+  google_verification = ""
+
+  description = ""
+  keywords = ""
+
+  beian = ""
+  baiduAnalytics = ""
+  googleAnalytics = ""
+  license = '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+
+[params.social]
+  Email = "jiurenm233@gmail.com"
+
+[params.gitalk]
+  clientID = ""
+  clientSecret = ""
+  repo = ""
+  owner = ""
+  admin = ""
+  id = ""
+  labels = ""
+  perPage = 15
+  pagerDirection = "last"
+  createIssueManually = false
+  distractionFreeMode = false
