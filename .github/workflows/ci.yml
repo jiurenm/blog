@@ -23,11 +23,16 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: UnlyEd/github-action-await-vercel@v1.1.0
-        id: await-vercel
+      - uses: actions/checkout@v2
+      - uses: amondnet/vercel-action@v20
+        id: vercel
         env:
           VERCEL_TOKEN: 5KvOVsWydf59JIdB0hGeJITz
         with:
+          vercel-token: 5KvOVsWydf59JIdB0hGeJITz
+          vercel-args: '--prod'
+          vercel-org-id: Go4ISeNmTSyiBWzonB4RrT07
+          vercel-project-id: prj_nT7vEraUKw239i8FbSC4hjoWygBZ
           deployment-url: hayate.vercel.app # TODO Replace by the domain you want to test
           timeout: 10 # Wait for 10 seconds before failing
 
