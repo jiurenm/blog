@@ -65,7 +65,7 @@ preserveTaxonomyNames = true
   Email = "jiurenm233@gmail.com"
 
 [params.utteranc]
-  repo = "https://github.com/jiurenm/utteranc"
+  repo = "jiurenm/utteranc"
   issueTerm = "title"
   theme = "preferred-color-scheme"
   crossorigin = "anonymous"
