@@ -48,7 +48,8 @@ preserveTaxonomyNames = true
   subtitle = "机动六课"
   cdn_url = ""
   home_mode = "posts"
-  enableGitalk = true
+  enableGitalk = false
+  enableUtteranc = true
 
   google_verification = ""
 
@@ -63,15 +64,8 @@ preserveTaxonomyNames = true
 [params.social]
   Email = "jiurenm233@gmail.com"
 
-[params.gitalk]
-  clientID = "c52eac7bc340e9e92da0"
-  clientSecret = "3b2a4ac1fe030145554dee6f7baae3040f70bc91"
-  repo = "https://hayate.vercel.app"
-  owner = "jiurenm"
-  admin = "jiurenm"
-  id = "location.pathname"
-  labels = "gitalk"
-  perPage = 15
-  pagerDirection = "last"
-  createIssueManually = false
-  distractionFreeMode = false
+[params.utteranc]
+  repo = "https://github.com/jiurenm/utteranc"
+  issueTerm = "title"
+  theme = "preferred-color-scheme"
+  crossorigin = "anonymous"
