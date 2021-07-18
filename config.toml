@@ -64,13 +64,13 @@ preserveTaxonomyNames = true
   Email = "jiurenm233@gmail.com"
 
 [params.gitalk]
-  clientID = ""
-  clientSecret = ""
-  repo = ""
-  owner = ""
-  admin = ""
-  id = ""
-  labels = ""
+  clientID = "c52eac7bc340e9e92da0"
+  clientSecret = "3b2a4ac1fe030145554dee6f7baae3040f70bc91"
+  repo = "https://hayate.vercel.app"
+  owner = "jiurenm"
+  admin = "jiurenm"
+  id = "location.pathname"
+  labels = "gitalk"
   perPage = 15
   pagerDirection = "last"
   createIssueManually = false
