@@ -1,0 +1,129 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "archetypes",
+      "path": "[[workspace]]/archetypes"
+    },
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    },
+    {
+      "title": "pcr",
+      "path": "[[workspace]]/content/pcr"
+    },
+    {
+      "title": "tokyo",
+      "path": "[[workspace]]/content/tokyo"
+    },
+    {
+      "title": "2021",
+      "path": "[[workspace]]/content/posts/2021"
+    },
+    {
+      "title": "2022",
+      "path": "[[workspace]]/content/posts/2022"
+    },
+    {
+      "title": "themes",
+      "path": "[[workspace]]/themes"
+    },
+    {
+      "title": "archetypes",
+      "path": "[[workspace]]/themes/mogege/archetypes"
+    },
+    {
+      "title": "content",
+      "path": "[[workspace]]/themes/mogege/exampleSite/content"
+    },
+    {
+      "title": "homepage",
+      "path": "[[workspace]]/themes/mogege/exampleSite/content/homepage"
+    },
+    {
+      "title": "post",
+      "path": "[[workspace]]/themes/mogege/exampleSite/content/post"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "Docker",
+    "Go",
+    "MongoDB",
+    "css",
+    "emoji",
+    "flutter",
+    "github",
+    "html",
+    "hugo",
+    "index",
+    "markdown",
+    "privacy",
+    "shortcodes",
+    "text",
+    "themes",
+    "vercel",
+    "东京迷城",
+    "公主连接",
+    "攻略"
+  ],
+  "frontMatter.taxonomy.categories": [
+    "Docker",
+    "Go",
+    "MongoDB",
+    "flutter",
+    "syntax",
+    "themes",
+    "东京迷城",
+    "公主连接",
+    "折腾"
+  ]
+}
