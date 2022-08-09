@@ -10,6 +10,7 @@ enableEmoji = true        # 支持emoji
 enableRobotsTXT = true        # 支持robots.txt
 
 preserveTaxonomyNames = true
+math = true
 
 [markup]
   defaultMarkdownHandler = "blackfriday"
