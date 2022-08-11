@@ -125,5 +125,8 @@
     "东京迷城",
     "公主连接",
     "折腾"
-  ]
+  ],
+  "frontMatter.content.autoUpdateDate": false,
+  "frontMatter.framework.startCommand": "make run",
+  "frontMatter.preview.host": "http://localhost:1313"
 }
