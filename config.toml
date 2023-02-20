@@ -13,7 +13,7 @@ preserveTaxonomyNames = true
 math = true
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
+  defaultMarkdownHandler = "goldmark"
 
 [blackfriday]
   hrefTargetBlank = true
